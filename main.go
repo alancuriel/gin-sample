@@ -14,8 +14,8 @@ func main() {
 
 	r.LoadHTMLGlob("hello.html")
 
-	r.GET("/hello", func(ctx *gin.Context) {
-		ctx.HTML(200, "hello.html", gin.H{})
+	r.GET("/hello", func(c *gin.Context) {
+		c.HTML(200, "hello.html", gin.H{})
 	})
 	r.Run()
 
