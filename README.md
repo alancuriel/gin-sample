@@ -1,5 +1,5 @@
 # gin で hello world
 
-* routing
-GET: /
+* routing  
+GET: /  
 GET: /hello
